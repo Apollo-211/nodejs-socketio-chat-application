@@ -31,4 +31,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker image
-        run: docker tag chat-app:latest azmor/chat-app:latest && docker push azmor/chat-app:latest
+        run: docker tag chat-app:latest azmor/chatapp:latest && docker push azmor/chatapp:latest
